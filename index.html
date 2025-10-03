@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section class="calculator">
+        <!--  <form action="">
+            <input type="text" value="" id="calculator-display" readonly>
+        </form> -->
+        <div id="calculator-display">0</div>
+        <div class="button">
+            <div class="row">
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-green btn-clear">C</button>
+                </div>
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-green btn-delete">←</button>
+                </div>
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-green operator" data-operator="/">/</button>
+                </div>
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-green operator" data-operator="*">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-blue num" data-value="7">7</button>
+                </div>
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-blue num" data-value="8">8</button>
+                </div>
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-blue num" data-value="9">9</button>
+                </div>
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-green operator" data-operator="-">-</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3 mline col-sm-3 col-auto">
+                    <button type="button" class="btn btn-blue num" data-value="4">4</button>
+                </div>
+                <div class="col-md-3 mline col-sm-3 col-auto">
+                    <button type="button" class="btn btn-blue num" data-value="5">5</button>
+                </div>
+                <div class="col-md-3 mline col-sm-3 col-auto">
+                    <button type="button" class="btn btn-blue num" data-value="6">6</button>
+                </div>
+                <div class="col-md-3 mline col-sm-3 col-auto">
+                    <button type="button" class="btn btn-green operator" data-operator="+">+</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-9">
+                    <div class="row mx-0">
+                        <div class="col-md-4 mline">
+                            <button type="button" class="btn btn-blue num" data-value="1">1</button>
+                        </div>
+                        <div class="col-md-4 mline">
+                            <button type="button" class="btn btn-blue num" data-value="2">2</button>
+                        </div>
+                        <div class="col-md-4 mline">
+                            <button type="button" class="btn btn-blue num" data-value="3">3</button>
+                        </div>
+                        <div class="col-md-8 mline">
+                            <button type="button" class="btn btn-blue num" data-value="0">0</button>
+                        </div>
+                        <div class="col-md-4 mline">
+                            <button type="button" class="btn btn-blue num" data-value=".">.</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mline">
+                    <button type="button" class="btn btn-orange equal">=</button>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/cal.js"></script>
+
+</body>
+
+</html>
